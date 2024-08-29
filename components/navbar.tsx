@@ -9,7 +9,7 @@ export default function NavBar() {
                 href="/"
             >
                 <div className="w-32 text-lg md:w-60">
-                    Shido Nakajima's Website
+                    Shido Nakajima&apos;s Website
                 </div>
             </Link>
             <div className="flex grow flex-col justify-between space-y-2 md:flex-row md:space-y-0">
