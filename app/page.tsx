@@ -27,8 +27,8 @@ export default function Home() {
              research laboratories, proficiency in multiple computer languages, and 
              hands-on hardware and fabrication skills.
             <br/><br/>
-            To lean more, please visit the <b>ABOUT</b> page for brief list of my 
-             experience, and the <b>DOCUMENTS</b> page for my resume (with references) 
+            To lean more, please visit the <link href="/about"><b>ABOUT</b></link> page for brief list of my 
+             experience, and the <link href="documents"><b>DOCUMENTS</b></link> page for my resume (with references) 
              and my Transcript from the University of Texas at Dallas.
           </p>
         </div>
