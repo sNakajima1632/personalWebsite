@@ -17,7 +17,7 @@ export default function Home() {
       {/* Content */}
       <div className="flex flex-col mx-20 my-20 min-w-md">
         <h1>Shido Nakajima</h1>
-        <p className="mx-5">B.S. in Biomedical Engineering</p>
+        <p className="mx-5">Acquiring M.S. in Biomedical Engineering</p>
         <div className="py-3 text-lg">
           <p className="font-bold">
             <br />Aspiring Medical Researcher/<br/>Medical Device Developer:<br/><br/>

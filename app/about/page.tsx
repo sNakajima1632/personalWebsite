@@ -16,8 +16,10 @@ export default function Page(){
             {/* Content */}
             <div className="flex h-full w-full flex-col my-10 gap-5">
                 <div><h2>Education</h2>
-                    <p className="mx-10">Graduated May 2024 from the 
-                        <a href="https://www.utdallas.edu/" className="text-blue-600"> University of Texas at Dallas</a>.
+                    <p className="mx-10">
+                        Studying M.S. in Biomedical Engineering starting 2025 @ the<a href="https://www.utdallas.edu/" className="text-blue-600"> University of Texas at Dallas</a>.
+                        <br/><br/>
+                        Graduated May 2024 from the<a href="https://www.utdallas.edu/" className="text-blue-600"> University of Texas at Dallas</a>.
                         <br/>
                         B.S. in Biomedical Engineering with GPA 3.77/4.0.
                     </p>
