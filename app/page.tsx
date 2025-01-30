@@ -20,7 +20,7 @@ export default function Home() {
         <p className="mx-5">Acquiring M.S. in Biomedical Engineering</p>
         <div className="py-3 text-lg">
           <p className="font-bold">
-            <br />Aspiring Medical Researcher/<br/>Medical Device Developer:<br/><br/>
+            <br />Aspiring Medical Device Developer/<br/>Health Care Data Analyst:<br/><br/>
           </p>
           <p>
             I am a dilligent worker and adaptive learner, with experience in two different
