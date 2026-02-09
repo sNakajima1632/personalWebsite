@@ -4,7 +4,7 @@ export default function Documents() {
       <div className="site-content">
         <h1>Documents</h1>
 
-        <p className="mt-3 font-bold">Please download my resume (with references) and transcript below.</p>
+        <p className="mt-3 font-bold">Please download my resume and transcript below.</p>
 
         <div className="flex flex-col md:flex-row gap-6 mt-6">
           <div className="flex-1">
