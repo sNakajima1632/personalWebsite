@@ -1,27 +1,35 @@
-export default function Home() {
+export default function Documents() {
   return (
-    <div className="flex w-full h-full">
-      <div className="flex w-full h-full flex-col mx-20 my-10 min-w-md">
+    <div className="w-full">
+      <div className="site-content">
         <h1>Documents</h1>
-        <div className="flex flex-col text-lg">
-            <p className="flex flex-col font-bold">
-                <br />Please download my resume (with references) and transcript below.
-                <br/><br/>
-            </p>
-        </div>
-        <div className="flex h-full flex-col justify-between gap-2 md:flex-row">
 
-            {/* Resume embed */}
-            <object className="flex flex-row w-full md:h-500"
-                data="/NakajimaResume.pdf" type="application/pdf" width="100%" height="50%">
-                <p>Unable to display PDF file. <a href="/NakajimaResume.pdf">Download</a> instead.</p>
-            </object>
+        <p className="mt-3 font-bold">Please download my resume (with references) and transcript below.</p>
 
-            {/* Transcript embed */}
-            <object className="flex flex-row w-full md:h-500"
-                data="/UTDTranscript5.20.2024.pdf" type="application/pdf" width="100%" height="50%">
-                <p>Unable to display PDF file. <a href="/UTDTranscript5.20.2024.pdf">Download</a> instead.</p>
+        <div className="flex flex-col md:flex-row gap-6 mt-6">
+          <div className="flex-1">
+            <h2 className="mb-3">Resume</h2>
+            <object
+              className="pdf-embed"
+              data="/NakajimaResume.pdf"
+              type="application/pdf"
+              aria-label="Resume PDF"
+            >
+              <p>Unable to display PDF file. <a href="/NakajimaResume.pdf">Download</a> instead.</p>
             </object>
+          </div>
+
+          <div className="flex-1">
+            <h2 className="mb-3">Transcript</h2>
+            <object
+              className="pdf-embed"
+              data="/UTDTranscript5.20.2024.pdf"
+              type="application/pdf"
+              aria-label="Transcript PDF"
+            >
+              <p>Unable to display PDF file. <a href="/UTDTranscript5.20.2024.pdf">Download</a> instead.</p>
+            </object>
+          </div>
         </div>
       </div>
     </div>

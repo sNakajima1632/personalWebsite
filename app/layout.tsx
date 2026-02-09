@@ -14,24 +14,24 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode;}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} site-root`}>
 
-        {/* Navigation bar for all pages */}
-        <div className="flex h-full flex-col sm:h-16 md:w-full md:flex-row md:overflow-hidden">
-          <div className="w-full flex-auto">
-            <NavBar />
+        {/* Header (sticky) */}
+        <header className="site-header">
+          <NavBar />
+        </header>
+
+        {/* Main content - centers and grows with content */}
+        <main className="site-main">
+          <div className="site-content">
+            {children}
           </div>
-        </div>
+        </main>
 
-        {/* Child components */}
-        <div className="flex h-full w-full overflow-hidden">
-          {children}
-        </div>
-
-        {/* Footer for all pages */}
-        <div className="flex w-full flex-row h-40 md:h-14 md:overflow-hidden">
+        {/* Footer - stays at bottom when content is short */}
+        <footer className="site-footer">
           <Footer />
-        </div>
+        </footer>
       </body>
     </html>
   );
