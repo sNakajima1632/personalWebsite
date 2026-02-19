@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer className="flex h-full w-full flex-row bottom-o bg-slate-800 text-white text-center align-middle">
             <div className="flex justify-center items-center w-32 text-sm md:w-60 md:h-full">
-                &#169; 2024 Shido Nakajima
+                2024 Shido Nakajima, updated Feb. 2026
             </div>
 
             <div className="flex w-full">
