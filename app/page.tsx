@@ -20,19 +20,19 @@ export default function Home() {
         <p className="mt-2 mb-4">Acquiring M.S. in Biomedical Engineering</p>
         <div className="py-3 text-lg">
           <p className="font-bold">
-            Aspiring <u>Medical Device Developer</u> / <u>Health Care Data Analyst</u>:
+            Aspiring <u>Medical Device Engineer</u> / <u>Health Care Data Analyst</u>:
           </p>
           <p className="mt-4">
-            I am a diligent worker and adaptive learner, with experience in 3 different
+            I am a diligent worker and adaptive learner, with experience in multiple
             research laboratories, proficiency in multiple computer languages, and
             hands-on hardware and fabrication skills.
             <br/><br/>
-            Permanent resident, Eligible in the U.S. for internships & full-time positions.
+            Permanent resident, Eligible to work in the U.S. without sponsorship.
             <br/>
-            Native-level proficiency in <i>English and Japanese</i>.
+            Native-level read/write/speak proficiency in <i>English and Japanese</i>.
             <br/><br/>
             To learn more, please visit the <b><a href="/about" className="text-blue-600 hover:underline">ABOUT</a></b> page for a brief list of my
-            experience, and the <b><a href="/documents" className="text-blue-600 hover:underline">DOCUMENTS</a></b> page for my resume (with references)
+            experience, and the <b><a href="/documents" className="text-blue-600 hover:underline">DOCUMENTS</a></b> page for my resume
             and my Transcript from the University of Texas at Dallas.
           </p>
         </div>

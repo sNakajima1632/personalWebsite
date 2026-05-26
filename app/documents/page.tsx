@@ -23,7 +23,7 @@ export default function Documents() {
             <h2 className="mb-3">Transcript</h2>
             <object
               className="pdf-embed"
-              data="/UTDTranscript5.20.2024.pdf"
+              data="/UTDTranscript.pdf"
               type="application/pdf"
               aria-label="Transcript PDF"
             >

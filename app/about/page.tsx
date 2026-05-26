@@ -17,7 +17,7 @@ export default function Page(){
             <div className="flex h-full w-full flex-col my-10 gap-5">
                 <div><h2>Education</h2>
                     <p className="mx-10">
-                        M.S. in Biomedical Engineering, GPA 4.0/4.0. Expected graduation Dec. 2026.
+                        M.S. in Biomedical Engineering, GPA 3.926/4.0. Expected graduation May 2027.
                         <br/>
                          - <b>University of Texas at Dallas</b>, Richardson, TX.
                         <br/><br/>
