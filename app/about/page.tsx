@@ -13,91 +13,132 @@ export default function Page(){
                 </p>
             </div>
 
+
             {/* Content */}
             <div className="flex h-full w-full flex-col my-10 gap-5">
+                {/* Education */}
                 <div><h2>Education</h2>
                     <p className="mx-10">
-                        M.S. in Biomedical Engineering, GPA 3.926/4.0. Expected graduation May 2027.
+                        <b>M.S. in Biomedical Engineering</b>, GPA 3.926/4.0. Expected graduation May 2027.
                         <br/>
-                         - <b>University of Texas at Dallas</b>, Richardson, TX.
+                         - University of Texas at Dallas
                         <br/><br/>
-                        B.S. in Biomedical Engineering, GPA 3.77/4.0. Graduated May 2024.
+                        <b>B.S. in Biomedical Engineering</b>, GPA 3.77/4.0. Graduated May 2024.
                         <br/>
-                         - <b>University of Texas at Dallas</b>, Richardson, TX.
+                         - University of Texas at Dallas
                     </p>
                 </div>
                 
-                {/* Projects both personal and college */}
-                <div><h2>Projects</h2>
+
+                {/* Skills */}
+                <div><h2>Technical Skills</h2>
                     <p className="mx-10">
-                        {/* Capstone */}
-                        <b>Deep Learning Model for Age Prediction with Brain MRI</b>
-                        <br/>
-                            Collaborative work with Dr. Joseph Maldjian and Dr. Kuan Zhang from
-                            <a href="https://www.utsouthwestern.edu/" className="text-blue-600"> UTSW Medical Center</a>.
-                        <br/>
-                            PyTorch implementation of DenseNet model for age prediction using 3D brain MRI volumes.
-                        <br/>
-                            Achieved Mean Absolute Error of <i>5.0 years</i>.
-                        <br/><br/>
+                        {/* Tools */}
+                            <b>Tools:</b> 3D CAD, FEBio, Meshlab, 3D Slicer, Gantt Chart
 
-                        {/* Capstone */}
-                        <b>Bleeding Control Trainer with Augmented Reality Interface</b>
-                        <br/>AR training device for treating traumatic hemorrhage. Sponsored 
-                            by Dr. Gilberto Salazar from
-                            <a href="https://www.utsouthwestern.edu/" className="text-blue-600"> UTSW Medical Center</a>.
-                        <br/>
-                            Project Manager- Microsoft Project, Work Breakdown Structure, risk matrices
-                        <br/>
-                            Programmer- Unity, C#, Github for collaboration.
+                        {/* ML */}
                         <br/><br/>
-
-                        {/* ML tumor detection */}
-                        <b>Brain Tumor Detection using Machine Learning</b>
-                        <br/>Brain MRI image analysis project for the Biomedical Image Processing course.
-                        <br/>
-                            Utilized MATLAB and MRI image database on 
-                            <a href="https://kaggle.com" className="text-blue-600"> kaggle.com</a>.
+                            <b>Machine Learning:</b> PyTorch, TensorFlow, MATLAB Deep Learning Toolbox
+                        
+                        {/* CS */}
                         <br/><br/>
-
-                        {/* Accessories */}
-                        <b>Personal Servers and Accessories</b>
-                        <br/>
-                            Wi-Fi signal extender made for my parents from RaspberryPi Zero W.
-                        <br/>
-                            Installed Ubuntu Server on old laptop for hosting home entertainment.
-                        <br/>
+                            <b>Computer Language</b> Python MATLAB, Bash, Powershell, HTML, CSS, JavaScript
                     </p>
                 </div>
+
 
                 {/* Experience */}
                 <div><h2>Experience</h2>
                     <p className="mx-10">
-                        {/* NNIL */}
+                        {/* TXBDC */}
                             <b><a href="https://txbdc.utdallas.edu/" className="text-blue-600">Texas Biomedical Device Center</a></b>, UT Dallas
                             <br/>
                             <i>Software Developer, Research Assistant</i>. Mar. 2025 - Present.
                             <br/>
-                            Python-based full stack development of nerve stimulation system used in laboratory research. Utilized ZeroMQ, Pyside6, PyQtGraph.
+                            <ul>
+                                <li>Developed a peripheral nerve stimulation device, enabling synchronized hardware communication, data analysis, and stimulation</li>
+                                <li>Analyzed electromyography data of vocalization muscle, isolating motor unit signals along 64 channels</li>
+                            </ul>
 
                         {/* NNIL */}
                         <br/><br/>
                             <b><a href="https://labs.utdallas.edu/nnil/" className="text-blue-600"> Neuronal Networks and Interfaces Laboratory</a></b>, UT Dallas
                             <br/>
-                            <i>Research Assistant</i>. Aug. 2021 - May 2024.
+                            <i>Research Assistant</i>. Jan. 2021 - Mar. 2024.
                             <br/>
-                            Performed in vivo neurophysiology studies on rodent motor cortex, including neural recordings, neural signal sorting, and analysis.
-                            <br/>
-                            <u>Publication:</u> Jeakle, E. N., et. al. (2023). Chronic stability of local 
-                            field potentials using amorphous silicon carbide microelectrode arrays 
-                            implanted in the rat motor cortex. <em>Micromachines</em>, 14(3), 680. 
-                            https://doi.org/10.3390/mi14030680.
-                        
+                            <ul>
+                                <li>Analyzed neural activity in rat motor cortex through implanted microelectrode arrays, improving signal stability and duration by 8-fold</li>
+                                <li>Implemented Butterworth filter on neuronal data, reducing noise by 30%</li>
+                                <li>Handled, habituated, anesthetized, and injected rats to observe change in collection of neuronal activity</li>
+                            </ul>
+
                         {/* UT summer 2018 */}
                         <br/><br/>
                             <b><a href="https://fri.cns.utexas.edu" className="text-blue-600"> Accelerated Research Initiative </a></b>, UT Austin
                             <br/>
                             <i>Research Intern</i>. Jun. 2018 - Aug. 2018.
+                    </p>
+                </div>
+
+
+                {/* Projects both personal and college */}
+                <div><h2>Projects</h2>
+                    <p className="mx-10">
+                        {/* Oura Sleep Study */}
+                        <b>Sleep Structure Study Using Oura Ring</b>
+                        <br/>
+                        <ul>
+                            <li>Analyzed continuous sleep structure data over 2 months period, resulting in machine learning models with R<sup>2</sup> of 0.74</li>
+                            <li>Implemented an ETL pipeline on sleep structure data, reducing misdiagnosis of sleep stage by 70%</li>
+                            <li>Deployed a predictive model to generate sleep debt data, increasing data volume by 8-fold</li>
+                        </ul>
+                        <br/><br/>
+
+                        {/* Brain Age Prediction */}
+                        <b>Deep Learning Model for Age Prediction with Brain MRI</b>
+                        <br/>
+                            <i>Collaborative work with Dr. Joseph Maldjian and Dr. Kuan Zhang from
+                            <a href="https://www.utsouthwestern.edu/" className="text-blue-600"> UTSW Medical Center</a>.</i>
+                        <br/>
+                        <ul>
+                            <li>Developed a deep learning model that predicts age from brain MRI volume, resulting in accuracy of +/- 5 years</li>
+                            <li>Implemented an end-to-end automated pipeline for data preparation, visual feature extraction, and regressorage prediction, 
+                                enabling easy deployment and reproducibility</li>
+                        </ul>
+                        <br/><br/>
+
+                        {/* Capstone */}
+                        <b>Bleeding Control Trainer with Augmented Reality Interface</b>
+                        <br/>
+                            <i>Capstone project sponsored by <a href="https://www.utsouthwestern.edu/" className="text-blue-600">UTSW Medical Center</a>.</i>
+                        <br/>
+                        <ul>
+                            <li>Developed a Unity/C# based AR application for traumatic hemorrhage treatment training</li>
+                            <li>Managed the team using Gantt chart and Work Breakdown Structure, reducing development timeline by 2 weeks</li>
+                        </ul>
+                        <br/><br/>
+                    </p>
+                </div>
+
+
+                {/* Publications */}
+                <div><h2>Publications</h2>
+                    <p className="mx-10">
+                        Jeakle, E. N., et. al. (2023). Chronic stability of local field potentials using amorphous silicon carbide microelectrode
+                            arrays implanted in the rat motor cortex. Micromachines, 14(3), 680. <a href="https://doi.org/10.3390/mi14030680" className="text-blue-600">https://doi.org/10.3390/mi14030680</a>
+                    </p>
+                </div>
+
+
+                {/* Additional Information */}
+                <div><h2>Additional Information</h2>
+                    <p className="mx-10">
+                        {/* Eligibility */}
+                            Eligible in the U.S. for internships & full-time - no restrictions
+
+                        {/* Language */}
+                        <br/><br/>
+                            English (native) and Japanese (native)
                     </p>
                 </div>
             </div>
