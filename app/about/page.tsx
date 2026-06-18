@@ -7,9 +7,7 @@ export default function Page(){
             <h1>About</h1>
             <div className="flex text-lg">
                 <p className="flex font-bold">
-                    <br />See below for a brief introduction about myself.
-                    Also, please contact me via linkedin, email, or phone through the 
-                    icons at the footer.
+                    <br />See below for a brief background
                 </p>
             </div>
 
@@ -21,11 +19,11 @@ export default function Page(){
                     <p className="mx-10">
                         <b>M.S. in Biomedical Engineering</b>, GPA 3.926/4.0. Expected graduation May 2027.
                         <br/>
-                         - University of Texas at Dallas
-                        <br/><br/>
+                        University of Texas at Dallas
+                        <br/>
                         <b>B.S. in Biomedical Engineering</b>, GPA 3.77/4.0. Graduated May 2024.
                         <br/>
-                         - University of Texas at Dallas
+                        University of Texas at Dallas
                     </p>
                 </div>
                 
@@ -37,11 +35,11 @@ export default function Page(){
                             <b>Tools:</b> 3D CAD, FEBio, Meshlab, 3D Slicer, Gantt Chart
 
                         {/* ML */}
-                        <br/><br/>
+                        <br/>
                             <b>Machine Learning:</b> PyTorch, TensorFlow, MATLAB Deep Learning Toolbox
                         
                         {/* CS */}
-                        <br/><br/>
+                        <br/>
                             <b>Computer Language</b> Python MATLAB, Bash, Powershell, HTML, CSS, JavaScript
                     </p>
                 </div>
@@ -49,41 +47,39 @@ export default function Page(){
 
                 {/* Experience */}
                 <div><h2>Experience</h2>
-                    <p className="mx-10">
+                    <div className="mx-10">
                         {/* TXBDC */}
-                            <b><a href="https://txbdc.utdallas.edu/" className="text-blue-600">Texas Biomedical Device Center</a></b>, UT Dallas
-                            <br/>
-                            <i>Software Developer, Research Assistant</i>. Mar. 2025 - Present.
-                            <br/>
-                            <ul>
-                                <li>Developed a peripheral nerve stimulation device, enabling synchronized hardware communication, data analysis, and stimulation</li>
-                                <li>Analyzed electromyography data of vocalization muscle, isolating motor unit signals along 64 channels</li>
-                            </ul>
+                        <b><a href="https://txbdc.utdallas.edu/" className="text-blue-600">Texas Biomedical Device Center</a></b>, UT Dallas
+                        <br/>
+                        <i>Software Developer, Research Assistant</i>. Mar. 2025 - Present.
+                        <ul>
+                            <li>Developed a peripheral nerve stimulation device, enabling synchronized hardware communication, data analysis, and stimulation</li>
+                            <li>Analyzed electromyography data of vocalization muscle, isolating motor unit signals along 64 channels</li>
+                        </ul>
 
                         {/* NNIL */}
-                        <br/><br/>
-                            <b><a href="https://labs.utdallas.edu/nnil/" className="text-blue-600"> Neuronal Networks and Interfaces Laboratory</a></b>, UT Dallas
-                            <br/>
-                            <i>Research Assistant</i>. Jan. 2021 - Mar. 2024.
-                            <br/>
-                            <ul>
-                                <li>Analyzed neural activity in rat motor cortex through implanted microelectrode arrays, improving signal stability and duration by 8-fold</li>
-                                <li>Implemented Butterworth filter on neuronal data, reducing noise by 30%</li>
-                                <li>Handled, habituated, anesthetized, and injected rats to observe change in collection of neuronal activity</li>
-                            </ul>
+                        <br/>
+                        <b><a href="https://labs.utdallas.edu/nnil/" className="text-blue-600"> Neuronal Networks and Interfaces Laboratory</a></b>, UT Dallas
+                        <br/>
+                        <i>Research Assistant</i>. Jan. 2021 - Mar. 2024.
+                        <ul>
+                            <li>Analyzed neural activity in rat motor cortex through implanted microelectrode arrays, improving signal stability and duration by 8-fold</li>
+                            <li>Implemented Butterworth filter on neuronal data, reducing noise by 30%</li>
+                            <li>Handled, habituated, anesthetized, and injected rats to observe change in collection of neuronal activity</li>
+                        </ul>
 
                         {/* UT summer 2018 */}
-                        <br/><br/>
-                            <b><a href="https://fri.cns.utexas.edu" className="text-blue-600"> Accelerated Research Initiative </a></b>, UT Austin
-                            <br/>
-                            <i>Research Intern</i>. Jun. 2018 - Aug. 2018.
-                    </p>
+                        <br/>
+                        <b><a href="https://fri.cns.utexas.edu" className="text-blue-600"> Accelerated Research Initiative </a></b>, UT Austin
+                        <br/>
+                        <i>Research Intern</i>. Jun. 2018 - Aug. 2018.
+                    </div>
                 </div>
 
 
                 {/* Projects both personal and college */}
                 <div><h2>Projects</h2>
-                    <p className="mx-10">
+                    <div className="mx-10">
                         {/* Oura Sleep Study */}
                         <b>Sleep Structure Study Using Oura Ring</b>
                         <br/>
@@ -92,12 +88,12 @@ export default function Page(){
                             <li>Implemented an ETL pipeline on sleep structure data, reducing misdiagnosis of sleep stage by 70%</li>
                             <li>Deployed a predictive model to generate sleep debt data, increasing data volume by 8-fold</li>
                         </ul>
-                        <br/><br/>
+                        <br/>
 
                         {/* Brain Age Prediction */}
                         <b>Deep Learning Model for Age Prediction with Brain MRI</b>
                         <br/>
-                            <i>Collaborative work with Dr. Joseph Maldjian and Dr. Kuan Zhang from
+                        <i>Collaborative work with Dr. Joseph Maldjian and Dr. Kuan Zhang from
                             <a href="https://www.utsouthwestern.edu/" className="text-blue-600"> UTSW Medical Center</a>.</i>
                         <br/>
                         <ul>
@@ -105,19 +101,18 @@ export default function Page(){
                             <li>Implemented an end-to-end automated pipeline for data preparation, visual feature extraction, and regressorage prediction, 
                                 enabling easy deployment and reproducibility</li>
                         </ul>
-                        <br/><br/>
+                        <br/>
 
                         {/* Capstone */}
                         <b>Bleeding Control Trainer with Augmented Reality Interface</b>
                         <br/>
-                            <i>Capstone project sponsored by <a href="https://www.utsouthwestern.edu/" className="text-blue-600">UTSW Medical Center</a>.</i>
+                        <i>Capstone project sponsored by <a href="https://www.utsouthwestern.edu/" className="text-blue-600">UTSW Medical Center</a>.</i>
                         <br/>
                         <ul>
                             <li>Developed a Unity/C# based AR application for traumatic hemorrhage treatment training</li>
                             <li>Managed the team using Gantt chart and Work Breakdown Structure, reducing development timeline by 2 weeks</li>
                         </ul>
-                        <br/><br/>
-                    </p>
+                    </div>
                 </div>
 
 
@@ -132,14 +127,14 @@ export default function Page(){
 
                 {/* Additional Information */}
                 <div><h2>Additional Information</h2>
-                    <p className="mx-10">
+                    <div className="mx-10">
                         {/* Eligibility */}
                             Eligible in the U.S. for internships & full-time - no restrictions
 
                         {/* Language */}
-                        <br/><br/>
+                        <br/>
                             English (native) and Japanese (native)
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

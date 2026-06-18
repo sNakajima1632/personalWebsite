@@ -37,7 +37,6 @@ export default function Home() {
             English (native) and Japanese (native)
             <br/><br/>
             To learn more, visit <b><a href="/about" className="text-blue-600 hover:underline">ABOUT</a></b> for my background, and
-            <br/>
             <b><a href="/documents" className="text-blue-600 hover:underline">DOCUMENTS</a></b> for resume and trasncript
           </p>
         </div>
